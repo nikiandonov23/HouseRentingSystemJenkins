@@ -30,6 +30,7 @@ builder.Services.AddDefaultIdentity<User>(options =>
 })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<HouseRentingDbContext>();
+//test change for Jenkins auto starter
 
 builder.Services.AddAutoMapper(
     typeof(IHouseService).Assembly,
